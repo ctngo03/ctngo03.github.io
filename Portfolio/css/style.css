@@ -34,11 +34,18 @@ body {
 
 }
 
-img{
+img.bio {
     width:500px;
     margin:auto;
     margin-left:auto;
     margin-right:auto;
+    border-radius:20px;
+}
+
+img{
+    width:200px;
+    margin:auto;
+    border-radius:15px;
 }
 
 figcaption,footer{
@@ -74,4 +81,8 @@ nav a:hover {
 
 figure {
   margin: 0px;
+}
+
+h2{
+    color:rgb(230, 135, 223);
 }

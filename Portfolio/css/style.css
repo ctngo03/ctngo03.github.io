@@ -45,17 +45,31 @@ figcaption,footer{
     font-size:0.75em;
 }
 
-ul {
+nav ul {
   list-style: none;
   padding-left: 0px;
 }
 
-a {
-  color: rgb(230, 174, 226);
+nav.horizontal li{
+    border:lpx solid green;
+    display: inline;
 }
 
-a:hover {
-  color: rgb(230, 115, 221);
+nav a {
+  color: rgb(230, 174, 226);
+  text-decoration:none;
+  background:white;
+  padding:10px;
+  margin:5px;
+  display:inline-block;
+  width:160px;
+  text-align: center;
+  border-radius:20px;
+}
+
+nav a:hover {
+  background: rgb(230, 115, 221);
+  color:white;
 }
 
 figure {

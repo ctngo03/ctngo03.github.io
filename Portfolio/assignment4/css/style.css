@@ -50,12 +50,15 @@ p.special {
 
 footer{
     font-size:0.7em;
+    position:fixed;
+    top:595px;
+    left:25px;
 }
 
 .we{
     font-size:0.5em;
     position: fixed;
-    top:270px;
+    top:260px;
     left:-35px;
     rotate:-90deg;
     opacity:0.6;
@@ -64,7 +67,7 @@ footer{
 .if{
     font-size:8em;
     position:fixed;
-    top:250px;
+    top:240px;
     left:40px;
     opacity:0.3;
 }
@@ -72,7 +75,7 @@ footer{
 .weare{
     font-size:1.2em;
     position:fixed;
-    top:240px;
+    top:230px;
     left:220px;
     opacity:0.70;
 }
@@ -89,28 +92,28 @@ footer{
 .at{
     font-size:1em;
     position:fixed;
-    top:207px;
+    top:197px;
     left:510px;
 }
 
 .four{
     font-size:10em;
     position:fixed;
-    top:188px;
+    top:178px;
     left:465px;
 }
 
 .dash{
     font-size:10em;
     position:fixed;
-    top:224.95px;
+    top:214.95px;
     left:580px;
 }
 
 .five{
     font-size:12em;
     position:fixed;
-    top:205px;
+    top:195px;
     left:650px;
     opacity:0.75;
 }
@@ -118,7 +121,7 @@ footer{
 .ip{
     font-size:8em;
     position:fixed;
-    top:465px;
+    top:455px;
     left:40px;
     opacity:1;
 }
@@ -126,7 +129,7 @@ footer{
 .you{
     font-size:8em;
     position:fixed;
-    top:470.5px;
+    top:460.5px;
     left:230px;
     opacity:1;
 }
@@ -134,7 +137,7 @@ footer{
 .dont{
     font-size:0.9em;
     position:fixed;
-    top:404px;
+    top:394px;
     left:612px;
     opacity:0.4;
 }
@@ -143,7 +146,7 @@ footer{
     font-size:1.6em;
     rotate:90deg;
     position:fixed;
-    top:479px;
+    top:469px;
     left:634px;
     opacity:0.7;
 }
@@ -151,7 +154,7 @@ footer{
 .some{
     font-size:2em;
     position:fixed;
-    top:405px;
+    top:395px;
     left:735px;
     opacity:0.4;
 }
@@ -159,7 +162,7 @@ footer{
 .one{
     font-size:2em;
     position:fixed;
-    top:449px;
+    top:439px;
     left:735px;
     opacity:0.4;
 }
@@ -167,7 +170,7 @@ footer{
 .then{
     font-size:0.6em;
     position:fixed;
-    top:485px;
+    top:475px;
     left:737px;
     letter-spacing:1px;
     opacity: 0.2;
@@ -177,7 +180,7 @@ footer{
 .will{
     font-size:2.7em;
     position:fixed;
-    top:534px;
+    top:524px;
     left:740px;
     word-spacing:-5px;
 }
@@ -185,7 +188,7 @@ footer{
 .i{
     font-size:7.35em;
     position:fixed;
-    top:482px;
+    top:472px;
     left:910px;
     opacity:0.7;
 }
@@ -193,21 +196,21 @@ footer{
 .say{
     font-size:8.5em;
     position:fixed;
-    top:58.2px;
+    top:48.2px;
     left:781px;
 }
 
 .u{
     font-size:1.3em;
     position:fixed;
-    top:180px;
+    top:170px;
     left:970px;
 }
 
 .be{
     font-size:4em;
     position:fixed;
-    top:250px;
+    top:240px;
     left:1010px;
 }
 
@@ -215,8 +218,12 @@ footer{
     font-size:7em;
     rotate:90deg;
     position:fixed;
-    top:280px;
+    top:271px;
     left:890px;
     letter-spacing:-15px;
     opacity:0.6;
+}
+
+header{
+    Position:fixed;
 }

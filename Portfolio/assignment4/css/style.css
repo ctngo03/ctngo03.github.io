@@ -1,0 +1,222 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family:'lucida', monospace;
+    background:#a9ccf5;
+    color:white;
+}
+
+
+#container {
+    margin:auto;
+    padding-left:25px;
+	
+}
+
+h1{
+    font-size:2vw;
+    word-spacing:20px;
+    line-height:1em;
+}
+
+p.special {
+    font-family:'Yeseva One', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    word-spacing: 5px;
+    letter-spacing:2px;
+    text-align: right;
+    font-weight:900;
+    position: fixed;
+    top:200px;
+    left: 200px;
+    color: #24568f;
+}
+
+
+footer{
+    font-size:0.7em;
+}
+
+.we{
+    font-size:0.5em;
+    position: fixed;
+    top:270px;
+    left:-35px;
+    rotate:-90deg;
+    opacity:0.6;
+}
+
+.if{
+    font-size:8em;
+    position:fixed;
+    top:250px;
+    left:40px;
+    opacity:0.3;
+}
+
+.weare{
+    font-size:1.2em;
+    position:fixed;
+    top:240px;
+    left:220px;
+    opacity:0.70;
+}
+
+.here{
+    font-size:3.30em;
+    position:fixed;
+    top:302px;
+    left:220px;
+    opacity:0.85;
+    
+}
+
+.at{
+    font-size:1em;
+    position:fixed;
+    top:207px;
+    left:510px;
+}
+
+.four{
+    font-size:10em;
+    position:fixed;
+    top:188px;
+    left:465px;
+}
+
+.dash{
+    font-size:10em;
+    position:fixed;
+    top:224.95px;
+    left:580px;
+}
+
+.five{
+    font-size:12em;
+    position:fixed;
+    top:205px;
+    left:650px;
+    opacity:0.75;
+}
+
+.ip{
+    font-size:8em;
+    position:fixed;
+    top:465px;
+    left:40px;
+    opacity:1;
+}
+
+.you{
+    font-size:8em;
+    position:fixed;
+    top:470.5px;
+    left:230px;
+    opacity:1;
+}
+
+.dont{
+    font-size:0.9em;
+    position:fixed;
+    top:404px;
+    left:612px;
+    opacity:0.4;
+}
+
+.marry{
+    font-size:1.6em;
+    rotate:90deg;
+    position:fixed;
+    top:479px;
+    left:634px;
+    opacity:0.7;
+}
+
+.some{
+    font-size:2em;
+    position:fixed;
+    top:405px;
+    left:735px;
+    opacity:0.4;
+}
+
+.one{
+    font-size:2em;
+    position:fixed;
+    top:449px;
+    left:735px;
+    opacity:0.4;
+}
+
+.then{
+    font-size:0.6em;
+    position:fixed;
+    top:485px;
+    left:737px;
+    letter-spacing:1px;
+    opacity: 0.2;
+    word-spacing:-2px
+}
+
+.will{
+    font-size:2.7em;
+    position:fixed;
+    top:534px;
+    left:740px;
+    word-spacing:-5px;
+}
+
+.i{
+    font-size:7.35em;
+    position:fixed;
+    top:482px;
+    left:910px;
+    opacity:0.7;
+}
+
+.say{
+    font-size:8.5em;
+    position:fixed;
+    top:58.2px;
+    left:781px;
+}
+
+.u{
+    font-size:1.3em;
+    position:fixed;
+    top:180px;
+    left:970px;
+}
+
+.be{
+    font-size:4em;
+    position:fixed;
+    top:250px;
+    left:1010px;
+}
+
+.mine{
+    font-size:7em;
+    rotate:90deg;
+    position:fixed;
+    top:280px;
+    left:890px;
+    letter-spacing:-15px;
+    opacity:0.6;
+}

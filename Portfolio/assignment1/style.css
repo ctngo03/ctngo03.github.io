@@ -7,7 +7,7 @@ html, body {
 
 html {
 		/* Standard text-settings below */
-	font-size: 0.9em;
+	font-size: 1em;
     line-height: 1.4em;
 }
 
@@ -15,7 +15,7 @@ html {
 
 
 body {
-	font-family:"Lucida Sans Typewriter";
+	font-family:monospace;
     /*background:rgb(123, 37, 245);*/
     color:#c0ff5c;
     /*background: linear-gradient(rgba(246,0,233,1), rgba(102,0,255,1));*/

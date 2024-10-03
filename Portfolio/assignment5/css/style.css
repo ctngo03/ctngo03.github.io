@@ -21,74 +21,146 @@ body {
 
 #container {
     width:1000px;
-    border:1px solid black;
     margin:auto;
 	height:800px;
+    margin-top:150px;
 }
 
 div#valentine{
-    background: linear-gradient(90deg, rgba(210,22,63,1) 0%, rgba(246,93,218,1) 100%);
-    width:500px;
-    height:1000px;
+    background: linear-gradient(90deg, rgba(210,22,55,1) 0%, rgba(246,93,218,1) 20%, rgba(157,229,5,1) 40%, rgba(123,176,255,1) 60%, rgba(165,87,214,1) 80%, rgba(87,95,214,1) 100%);
+    width:1300px;
+    height:800px;
     position:absolute;
-    top:0px;
-    left:0px;
+    top:150px;
+    left:450px;
+    filter:blur(5px);
+    border-radius:10%;
     /*transition:all 1.5s;*/
 }
 
-/*div#valentine:hover{
-    background: linear-gradient(90deg, rgba(210,22,63,1) 0%, rgba(246,93,218,1) 100%);
-    transform: rotate(180deg);*/
-}
-
 div#rose{
-    background:black;
-    width:400px;
-    height:400px;
+    background:white;
+    width:200px;
+    height:200px;
     position:absolute;
     border-radius:50%;
-    top:300px;
-    left:300px;
+    top:450px;
+    left:500px;
     opacity:0;
-    transition:all 500ms;
+    transition:all 1s;
 }
 
 div#rose:hover{
     background: linear-gradient(90deg, rgba(246,93,218,1) 0%, rgba(210,22,63,1) 100%);
     opacity:1;
+    transform:rotate(90deg) scale(2);
 }
 
 div#flower{
-    background: linear-gradient(90deg, rgba(246,93,218,1) 0%, rgba(157,239,5,1) 100%);
-    width:500px;
-    height:1000px;
+    background:white;
+    width:150px;
+    height:150px;
     position:absolute;
-    top:0px;
-    left:500px;
-    /*transition:all 1.5s;*/
+    top:250px;
+    left:750px;
+    opacity:0;
+    transform:rotate(45deg);
+    transition:all 1s;
 }
 
-/*div#flower:hover{ 
-    background: linear-gradient(90deg, rgba(246,93,218,1) 0%, rgba(157,239,5,1) 100%);
-    transform: rotate(180deg);*/
+div#flower:hover{
+    background: linear-gradient(90deg, rgba(157,229,5,1) 0%, rgba(246,93,218,1) 100%);
+    opacity:1;
+    transform:rotate(90deg);
+
 }
 
 div#green{
-    background:blue;
-    width:500px;
-    height:1000px;
+    background:white;
+    width:150px;
+    height:150px;
     position:absolute;
-    top:0px;
-    left:1000px;
-    /*transition:all 1.5s;*/
+    top:700px;
+    left:750px;
+    opacity:0;
+    transform:rotate(45deg);
+    transition:all 1s;
+}
+
+div#green:hover{
+    background: linear-gradient(90deg, rgba(157,229,5,1) 0%, rgba(246,93,218,1) 100%);
+    opacity:1;
+    transform:rotate(90deg);
 }
 
 div#blue{
-    background: linear-gradient(90deg, rgba(123,176,255,1) 0%, rgba(165,87,214,1) 100%);
-    width:500px;
-    height:1000px;
+    background:white;
+    width:200px;
+    height:200px;
+    opacity:0;
+    border-radius:50%;
     position:absolute;
-    top:0px;
+    top:450px;
+    left:1000px;
+    transition:all 1s;
+}
+
+div#blue:hover{
+    background: linear-gradient(90deg, rgba(123,176,255,1) 0%, rgba(157,229,5,1) 100%);
+    opacity:1;
+    transform:rotate(90deg) scale(2);
+}
+
+div#purple{
+    background:white;
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:250px;
+    left:1250px;
+    opacity:0;
+    transform:rotate(45deg);
+    transition:all 1s;
+}
+
+div#purple:hover{
+    background: linear-gradient(90deg, rgba(165,87,214,1) 0%, rgba(123,176,255,1) 100%);
+    opacity:1;
+    transform:rotate(90deg);
+}
+
+div#lilac{
+    background:white;
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:700px;
+    left:1250px;
+    opacity:0;
+    transform:rotate(45deg);
+    transition:all 1s;
+}
+
+div#lilac:hover{
+     background: linear-gradient(90deg, rgba(165,87,214,1) 0%, rgba(123,176,255,1) 100%);
+    opacity:1;
+    transform:rotate(90deg);
+}
+
+div#indigo{
+    background:white;
+    width:200px;
+    height:200px;
+    position:absolute;
+    border-radius:50%;
+    top:450px;
     left:1500px;
-    /*transition:all 1.5s;*/
+    opacity:0;
+    transition:all 1s;
+}
+
+div#indigo:hover{
+    background: linear-gradient(90deg, rgba(87,95,214,1) 0%, rgba(165,87,214,1) 100%);
+    opacity:1;
+    transform:rotate(90deg) scale(2);
 }

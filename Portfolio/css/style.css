@@ -27,7 +27,7 @@ body {
      border: 5px solid rgb(167, 212, 138);
   background: rgb(217, 237, 204);
   width: 90%;                            /* You can change this number */
-  max-width: 1000px;                 /* You can change this number */
+          
   margin: auto;
   padding: 20px;
   margin-top:20px;
@@ -46,6 +46,7 @@ img{
     width:200px;
     margin:auto;
     border-radius:15px;
+    padding-top:20px;
 }
 
 figcaption,footer{
@@ -93,3 +94,4 @@ h1{
     font-family: "Brush Script MT";
     font-size:3.5em;
 }
+

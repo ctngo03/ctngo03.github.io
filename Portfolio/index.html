@@ -32,6 +32,31 @@
   </nav>
 
   <main>
+      
+      <script>
+      
+          //document.write("cat: you are now super cool.");
+          
+          function salad() {
+          
+          alert("cat : you are now super cool.");
+          } //close alert function
+          
+      function changeBg() {
+        document.body.style.background = "#ffd4fb";
+        //document.body.style.backgroundImg="url('flowers.jpg')";
+      } //close background function
+      
+      </script>
+      
+      <button onclick="salad()">
+      Press for security
+      </button>
+      
+      <button onclick="changeBg()">
+      redecorate!
+      </button>
+      
        <figure>
     <img src=img/minecraft-cat.jpg alt="cat in diamond armor">
     <figcaption>https://i.pinimg.com/564x/a8/52/08/a8520865b23b0f320ae0f61b678dd5ce.jpg</figcaption>
@@ -42,9 +67,15 @@
   </p>
       
   </main>
+      
 
   <footer>
-    <p>&#169;CINDY NGO 2024</p>
+    <p>&#169;CINDY NGO <span id="year"></span></p>
+      
+      <script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+      
   </footer>
 
 

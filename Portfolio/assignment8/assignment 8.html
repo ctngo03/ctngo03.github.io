@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Totoro Scavenger Hunt</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Mansalva&family=Ribeye&family=UnifrakturMaguntia&family=Vujahday+Script&family=Yeseva+One&display=swap" rel="stylesheet">
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+    <main>
+        <header>
+            <h1>Find the Totoro!</h1>
+        </header>
+        <figure>
+        <img src="img/mei.png" alt="This is Mei." class="mei"><figcaption class='meicap'>Nope! That's Mei.</figcaption>
+        </figure>
+        <figure>
+        <img src="img/leaf.png" alt="leaf" class="leaf">
+        </figure>
+        <figure class="responsive">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RUnvkHZwDg4?si=I7I5nDTgNOc5BM0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </figure>
+        <figure>
+        <img src="img/leaf%201.png" alt="second leaf" class="secondleaf">
+        </figure>
+      
+    </main>
+
+
+
+
+  </div><!-- close "container" -->
+  
+     <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+      
+      $('.mei').hide();
+      $('.meicap').hide();
+      $('.responsive').hide();
+      $('.leaf').click(function(){
+                $('.mei').show(300)
+      }); //mei click close
+      $('.leaf').click(function(){
+            $('.meicap').show(300)
+      });//meicap click close
+      $('.secondleaf').click(function(){
+          $('.responsive').show(300)
+      });//second leaf click close
+   
+      
+  }); //close .ready()
+</script>
+
+</body>
+	
+</html> 

@@ -151,8 +151,20 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 	
+    /*section{
+        display:flex;
+        flex-wrap:wrap;
+        flex:1 1 50%;
+    }
+    
 	
-	
+    /*main p{
+        font-size:1.2em;
+    }*/
+    
+    footer{
+        font-size:1.5em;
+    }
 	
 } /* closes 1024px+ */
 

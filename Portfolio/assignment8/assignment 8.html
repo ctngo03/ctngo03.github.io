@@ -29,15 +29,26 @@
         <figure>
         <img src="img/mei.png" alt="This is Mei." class="mei"><figcaption class='meicap'>Nope! That's Mei.</figcaption>
         </figure>
+        
         <figure>
         <img src="img/leaf.png" alt="leaf" class="leaf">
         </figure>
-        <figure class="responsive">
-            
+        
+        <figure class="responsive">   
             <iframe width="560" height="315" src="https://www.youtube.com/embed/RUnvkHZwDg4?si=I7I5nDTgNOc5BM0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption class="theme">Close! That's the theme song!</figcaption>
         </figure>
         <figure>
         <img src="img/leaf%201.png" alt="second leaf" class="secondleaf">
+        </figure>
+        
+        <figure>
+        <img src="img/leaf%202.png" alt="third leaf" class="thirdleaf">
+        </figure>
+        
+        <figure>
+        <img src="img/twotot.png" alt="two totoros sitting together" class="totoro">
+        <figcaption class="tocap">Wow! You found two! Good job!</figcaption>
         </figure>
       
     </main>
@@ -54,19 +65,28 @@
 <script>
   $(document).ready(function() {
       
-      $('.mei').hide();
-      $('.meicap').hide();
-      $('.responsive').hide();
-      $('.leaf').click(function(){
-                $('.mei').show(300)
-      }); //mei click close
-      $('.leaf').click(function(){
-            $('.meicap').show(300)
-      });//meicap click close
-      $('.secondleaf').click(function(){
-          $('.responsive').show(300)
-      });//second leaf click close
-   
+    $('.mei').hide();
+    $('.meicap').hide();
+    $('.leaf').click(function() {
+         $('.mei').fadeIn(200);
+         $('.meicap').fadeIn(200);
+    }); //click close mei
+      
+    $('.responsive').hide();
+    $('.theme').hide();
+    $('.secondleaf').click(function() {
+        $('.responsive').fadeIn(200);
+        $('.theme').fadeIn(200);
+    }); //click close theme
+      
+    $('.totoro').hide();
+    $('.tocap').hide();
+    $('.thirdleaf').click(function() {
+        $('.totoro').fadeIn(200);
+        $('.tocap').fadeIn(200);
+        
+        
+    }); //click close totoro
       
   }); //close .ready()
 </script>

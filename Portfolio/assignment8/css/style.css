@@ -25,43 +25,55 @@ h1{
     font-family: "Ribeye", serif;
     font-weight: 400;
     font-style: normal;
-    font-size:5em;
+    font-size:2.5em;
 }
 
 #container {
-	padding:2em;
-}
-
-.leaf{
-    max-width:20%;
-    padding-top: 5px;
-    padding-left:0px;
-}
-
-.secondleaf{
-    max-width:20%;
-    padding-top: 5px;
-    padding-left:20px;
-    rotate: 30deg;
+	padding:1em;
+    margin:auto;
 }
 
 .mei{
-    max-width:10%;
-    padding-top: 20px;
-    padding-left:30px;
+    max-width:30%;
+    position:absolute;
+    top: 350px;
+    left:50px;
+    z-index:2;
 }
 
 .meicap{
-    padding-top: 20px;
-    padding-left:30px;
+    position:absolute;
+    top:540px;
+    left:70px;
+    z-index:20;
     color:white;
     font-family: "Ribeye", serif;
     font-weight: 400;
     font-style: normal;
+    font-size:0.7em;
 }
 
+.leaf{
+    position:absolute;
+    top:290px;
+    left:-20px;
+    z-index:1;
+    max-width:65%;
+    rotate:30deg;
+}
+
+.secondleaf{
+    max-width:70%;
+    position:absolute;
+    top:30px;
+    left:-10px;
+    rotate: 280deg;
+    z-index: 1;
+}
+
+
 figure.responsive {
-    position: relative;
+    position:relative;
     padding-bottom: 56.25%;  /* 16:9 */
     height: 0px;
     overflow: hidden;
@@ -70,10 +82,54 @@ figure.responsive {
 
 figure.responsive iframe {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 20%;
-    height: 20%;
+    top: 65px;
+    left: 15px;
+    width: 48%;
+    height: 48%;
+    z-index: 2;
+}
+
+.theme{
+    position:absolute;
+    color:white;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+    top:190px;
+    left:20px;
+    z-index: 2;
+    
+}
+
+.thirdleaf{
+    max-width:80%;
+    rotate:110deg;
+    position:absolute;
+    top:500px;
+    left:-30px;
+    z-index: 1;
+    
+}
+
+.totoro{
+    max-width: 40%;
+    position:absolute;
+    top:590px;
+    left:70px;
+    z-index: 2;
+}
+
+.tocap{
+    position:absolute;
+    color:white;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+    top:760px;
+    left:80px;
+    z-index: 2;
 }
 
 
@@ -86,8 +142,103 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
-	
- 
+
+    h1{
+        font-size: 3em;
+    }
+    
+ .mei{
+    max-width:15%;
+    position:absolute;
+    top: 350px;
+    left:540px;
+    z-index:2;
+}
+
+.meicap{
+    position:absolute;
+    top:600px;
+    left:540px;
+    z-index:20;
+    color:white;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.35em;
+}
+
+.leaf{
+    position:absolute;
+    top:230px;
+    left:400px;
+    z-index:1;
+    max-width:40%;
+    rotate:30deg;
+}
+
+.secondleaf{
+    max-width:53%;
+    position:absolute;
+    top:-100px;
+    left:-30px;
+    rotate: 280deg;
+    z-index: 1;
+}
+
+
+figure.responsive {
+    position:relative;
+    padding-bottom: 56.25%;  /* 16:9 */
+    height: 0px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+figure.responsive iframe {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    width: 27%;
+    height: 27%;
+    z-index: 2;
+}
+
+.theme{
+    font-size:1.35em;
+    top:255px;
+    left:70px;
+    z-index: 2;
+}
+
+.thirdleaf{
+    max-width:50%;
+    rotate:110deg;
+    position:absolute;
+    top:0px;
+    left:650px;
+    z-index: 1;
+    
+}
+
+.totoro{
+    max-width: 40%;
+    position:absolute;
+    top:190px;
+    left:850px;
+    z-index: 2;
+}
+
+.tocap{
+    position:absolute;
+    color:white;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.35em;
+    top:380px;
+    left:810px;
+    z-index: 2;
+}
 	
 	
 } /* closes 769px+ */
@@ -98,7 +249,75 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 	
-	
+    h1{
+        font-size: 7em;
+    }
+    
+    .leaf{
+        left:-50px;
+        top:100px;
+    }
+    
+    .mei{
+        left:250px;
+        top:380px;
+    }
+    
+    .meicap{
+        font-size:2em;
+        left:270px;
+        top:820px;
+    }
+    
+    .secondleaf{
+        max-width:70%;
+        rotate:250deg;
+        top:-200px;
+        left:500px;
+        
+    }
+    
+    figure.responsive {
+        position:relative;
+        padding-bottom: 56.25%;  /* 16:9 */
+        height: 0px;
+        overflow: hidden;
+        max-width: 100%;
+}
+
+    figure.responsive iframe {
+        position: absolute;
+        top: 250px;
+        left: 850px;
+        width: 42%;
+        height: 42%;
+        z-index: 2;
+}
+    
+    .theme{
+        font-size:2em;
+        top:860px;
+        left:1100px;
+    }
+
+    
+    .totoro{
+        top:1000px;
+        left:2200px;
+    }
+    
+    .thirdleaf{
+        max-width:20%;
+        top:860px;
+        left:2050px;
+    }
+    
+    .tocap{
+        font-size:2em;
+        top:1200px;
+        left:2200px;
+        line-height:1.5em;
+    }
 	
 	
 } /* closes 1024px+ */

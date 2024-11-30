@@ -1,0 +1,154 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+    background:#C0DEA5;
+	
+}
+
+.nav{
+    padding-left:50px;
+}
+
+#container {
+    align-content: center;
+	margin:auto;
+    padding:80px;
+    border: 1px solid black;
+    width:400px;
+    background:#EBBA85
+    
+}
+
+.camp{
+    max-width:400px;
+    border-radius:30px;
+    border:5px solid #D08730;
+    
+}
+
+.introp{
+    padding:30px;
+    padding-top:10px;
+    color:white;
+    background:#EBBA85;
+}
+
+p{
+    font-size:0.8em;
+    text-align: justify;
+}
+
+.med{
+    max-height: 100px;
+    border:5px solid white;
+    border-radius: 30px;
+}
+
+.land{
+    max-height: 100px;
+    border:5px solid white;
+    border-radius: 30px;
+}
+
+.cons{
+    max-height: 100px;
+    border:5px solid white;
+    border-radius: 30px;
+}
+
+header{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+nav.horizontal li{
+    border:lpx solid green;
+    display: inline;
+}
+
+nav a {
+  color:#C0DEA5;
+  text-decoration:none;
+  background:white;
+  font-size: 0.75em;
+  padding:5px;
+  margin:3px;
+  display:inline-block;
+  width:60px;
+  text-align: center;
+  border-radius:20px;
+  transition: background 500ms;
+}
+
+.orange:hover{
+    color:white;
+    background:#D08730;
+}
+
+.blue:hover{
+    color:white;
+    background:#529FD7;
+}
+
+.yellow:hover{
+    color:white;
+    background:#E0CA72;
+}
+
+.green:hover{
+    color:white;
+    background:#79baa1;
+}
+
+.darkgreen:hover{
+    color:white;
+    background:#58885E;
+}
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+

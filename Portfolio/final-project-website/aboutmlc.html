@@ -17,6 +17,8 @@
 
 <body>
     
+    <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
+    
         <section class="nav">
           <nav class="horizontal">
     <ul>
@@ -36,23 +38,80 @@
       </figure>
       
       <section class="bout">
-          <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Arcu malesuada viverra neque fusce cursus dolor luctus sed. Volutpat scelerisque massa accumsan nisl phasellus auctor ac aliquam. Bibendum accumsan placerat luctus ut cras neque lacinia. Conubia scelerisque facilisi montes sapien duis massa ornare nibh volutpat. Nascetur viverra velit tristique duis curabitur faucibus. Imperdiet venenatis dictum accumsan finibus tempus dictum quis cras. Ac laoreet rhoncus vulputate libero inceptos curae hac consectetur. Urna eu volutpat eu ad montes elit fringilla.</p>
+          <p> We are a company that prioritizes self-care. Our belief is that the best form of self-care is through meditative practices. Meditation is the act of focusing your mind and body to achieve a state of calmness and heightened awareness. In other words, allowing for your mind and body to rest in consciousness.</p>
 
-          <p>Tempor suspendisse gravida felis suspendisse arcu. Vitae porta potenti facilisis semper imperdiet dolor maximus curabitur. Orci quis sem montes nulla ante litora consectetur lacus vestibulum. Ac viverra facilisi nisl pretium proin tellus amet vulputate. Urna elit donec libero velit justo molestie convallis at ut. Urna eleifend curabitur integer dictumst himenaeos. Leo pulvinar class sodales suscipit tellus vitae cursus leo. Sagittis sociosqu hac class dictum primis. Et ullamcorper malesuada laoreet molestie consequat ad facilisi per.</p>
+          <p>People often believe that meditation requires an intense amount of focus and labor, when in reality it is as simple as staring at a single point for five minutes and turning off your brain. This misconception is often why people don’t see the benefits of meditation. Through meditation, you are allowing your mind to be at a rest while also giving your body a chance to catch up. Maintaining this state of equilibrium between your mind and body is what will help you achieve greater productivity and even better results of work. </p>
+          
+          <p>
+          As this is one of our core company beliefs, we try to incorporate this in our company’s work environment. This means we allow our staff the optimal time to remove themselves from their work and take the time to meditate, whether it is long meditation like taking a walk at a nearby park or a shorter meditation like sitting in silence for ten minutes. We also provide the proper spaces at our office for workers to meditate at their own leisure. Our spaces include a quiet room that is reserved for resting and relaxing as well as our communal garden for our team members to enjoy the comfort of a green environment. 
+          </p>
+          
+          <p>
+          We hope by sharing our practices as a company, that you feel encouraged to go on this meditative journey for yourself. May you be able to achieve the peace of mind and body, whether it’s through meditative practices or other habits that best work for you.
+          </p>
+          
       </section>
       
       <figure>
       <img src="img/land.png" alt="land" class="land">
       </figure>
 
+           <section class="lands">
+          <p>
+          As we value the importance of maintaining a healthy body and mind, we also value the importance of keeping the land clean and in its healthiest state. We believe that by taking care of the earth, you are also taking care of yourself because you are helping create a better environment for you to both live and work in. By helping the earth, you have one less thing to worry about because the land is what you make of it and treating it well will guarantee you that extra bit of peace of mind. 
+          </p>
+          
+          <p>
+          How we as a company have incorporated this value in our work ethic is through encouraging our workers to take the time to experience nature. During the period where we had to consider where our company should be located, we took the extra effort to make sure it was located in a clean space where there is a park for our workers to visit on their breaks and tons of trees for people to see when they look outside of the windows. We have also been steadily growing our company garden so that even if there is not enough time to take a walk in nature, our team members can visit and work in the garden whenever they like.
+          </p>
+          
+          <p>
+          Outside of our work practices, we also care about keeping our workers informed. We have annual research meetings where we go over the current state of the land and how we can boost the care for our environment. It is important to us that we stay informed about what is happening in the world we live in and how we can put our best foot forward in assisting the growth of our environment.
+          </p>
+      </section>
       
       <figure>
-      <img src="img/cons.png" alt="conservation" class="cons">
+      <img src="img/cons.png" alt="conservation" class="con">
       </figure>
+      
+      <section class="cons">
+      <p>Conservation is the act of maintaining natural resources in order to prevent these resources from depleting. Our company is strongly committed to the act of conservation as most of our company’s work is dedicated to reporting on the state of our land’s natural resources, as well as how to start conserving materials when we are at an all-time high of resource depletion. Here is how our company has incorporated conservation in our work environment. </p>
+      <p>For starters, our entire office headquarters run completely on solar power energy. This means that all electricity and power running throughout our building comes directly from the sun, the largest energy source of all time. Though, we understand that solar panels are an expensive investment, we believe the results are a great investment as it reduces the cost of energy greatly. Another technological investment is that all our faucets and toilets are all automatically operated. We do this because we want to eliminate as much water waste as we can. We believe having motion censored technology has helped that.</p>
+      <p>Our last quality of work improvement is our meal plan for our staff. We are company that believes meals can be prepared in moderation and in doing that we want to prevent as much food waste as possible. We give our staff a selection of menus on a weekly basis and all meal portions are sized accurately based on our worker’s needs. We also incorporate the produce locally grown in our communal garden so that ingredients are fresh and served healthily.</p>
+          
+      </section>
 
 
   </div><!-- close "container" -->
   
+      <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+       $('.nav').hide();
+      $('button#NavMenu').click(function(){
+          $('.nav').slideToggle(250);
+      });
+      
+      $('.bout').hide();
+      $('.med').click(function() {
+           $('.bout').slideToggle(300);   
+                  })
+      $('.lands').hide();
+      $('.land').click(function(){
+          
+          $('.lands').slideToggle(300);
+      });
+      
+      $('.cons').hide();
+      $('.con').click(function(){
+          $('.cons').slideToggle(300);
+      });
+
+  }); //close .ready()
+</script>
 
 </body>
 	

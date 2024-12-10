@@ -16,7 +16,9 @@
     
 <body>
     
-        <section class="nav">
+    <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
+    
+    <section class="nav">
           <nav class="horizontal">
     <ul>
       <li><a href="finalweb.html" class="orange">Home</a></li>
@@ -51,7 +53,10 @@
 <script>
   $(document).ready(function() {
 
-      $('bout').hide
+      $('.nav').hide();
+      $('button#NavMenu').click(function(){
+          $('.nav').slideToggle(250);
+      });
 
   }); //close .ready()
 </script>

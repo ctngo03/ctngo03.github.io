@@ -16,6 +16,7 @@
     
 <body>
 
+    <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
         <section class="nav">
           <nav class="horizontal">
     <ul>
@@ -29,14 +30,28 @@
  </section>
     
   <div id="container">
-
+      <img src
 
 
 
 
   </div><!-- close "container" -->
   
+         <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
 
+<script>
+  $(document).ready(function() {
+
+      $('.nav').hide();
+      $('button#NavMenu').click(function(){
+          $('.nav').slideToggle(250);
+      });
+
+  }); //close .ready()
+</script>
+    
 </body>
 	
 </html> 

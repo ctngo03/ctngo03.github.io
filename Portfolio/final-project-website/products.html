@@ -16,7 +16,9 @@
 
 
 <body>
-
+    
+    <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
+    
         <section class="nav">
           <nav class="horizontal">
     <ul>
@@ -29,7 +31,13 @@
   </nav>
  </section>
     
-  <div id="container">
+  <div id="products">
+      <section class="charm">
+          <img src="img/product-01.png" alt="purple cloth charm" class="cha">
+          <h2>Omamori Charm</h2>
+          <p class="charmdes"> Omamori good luck charm is used to protect individuals from evil and to bring about good fortune.</p>
+      
+      </section>
 
 
 
@@ -37,7 +45,21 @@
 
   </div><!-- close "container" -->
   
+         <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
 
+<script>
+  $(document).ready(function() {
+
+      $('.nav').hide();
+      $('button#NavMenu').click(function(){
+          $('.nav').slideToggle(250);
+      });
+
+  }); //close .ready()
+</script>
+    
 </body>
 	
 </html> 

@@ -17,6 +17,10 @@
 
 <body>
     
+    <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
+    
+    <img src="img/mlc%20logo.png" alt="MLC Logo" class="logo">
+    
     <section class="nav">
           <nav class="horizontal">
     <ul>
@@ -51,6 +55,20 @@
 
   </div><!-- close "container" -->
   
+      <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+
+      $('.nav').hide();
+      $('button#NavMenu').click(function(){
+          $('.nav').slideToggle(250);
+      });
+
+  }); //close .ready()
+</script>
 
 </body>
 	

@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>***</title>
+	<title>MLC Research</title>
 	
 	<link rel="stylesheet" href="css/style.css">	
 	
@@ -16,7 +16,14 @@
     
 <body>
 
+    <div class="flex">
+    
+ <img src="img/mlc%20logo.png" alt="MLC Logo" class="logo">
+    
     <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
+        
+        </div>
+    
         <section class="nav">
           <nav class="horizontal">
     <ul>
@@ -29,8 +36,33 @@
   </nav>
  </section>
     
-  <div id="container">
-      <img src
+  <div id="research">
+      <figure class="reimg">
+          <img src="img/ttree.jpg" alt="Camphor Tree with wish rope" class="retree">
+          <img src="img/sayama%20hills%20shrine.jpg" alt="Sayama Hills Shrine" class="shrine">
+          <img src="img/totoro-bs.webp" alt="Totoro Wish Station" class="wish">
+      </figure>
+      
+      <section class="recaption">
+          <figcaption class="retreecap">Camphor Trees</figcaption>
+          <figcaption class="shrinecap">Sayama Hills Shrine</figcaption>
+          <figcaption class="wishcap">Totoro Wish Station</figcaption>
+          
+      </section>
+      
+      <section class="rebuttons">
+          <button id="treebutton">Read More</button>
+          <button id="shrinebutton">Read More</button>
+          <button id="wishbutton">Read More</button>
+      </section>
+      
+      <section class="descriptions">
+          <p class="treedes">In Japan, camphor trees (樟, kusu) are deeply symbolic, representing longevity, resilience, and spiritual protection. As one of the nation's most revered trees, they are often found near shrines and temples, embodying sacredness and connection to the divine. Their evergreen nature signifies enduring life and vitality, while their massive size and long lifespan evoke strength and permanence. Camphor trees are also associated with healing and purification, as camphor oil has been traditionally used for medicinal purposes. In Japanese mythology and folklore, these trees are considered a dwelling place for kami (spirits or deities), further solidifying their role as a bridge between the natural and spiritual worlds. (AI Generated) </p>
+          
+          <p class="shrinedes">The Sayama Hills Shrine, nestled in the lush greenery of the Sayama Hills on the border of Tokyo and Saitama Prefecture, is a serene and lesser-known sanctuary that embodies the harmony between nature and spirituality. Surrounded by dense forests and tranquil trails, the shrine is a place of quiet reflection, often visited by hikers and locals seeking respite from urban life. Its modest architecture blends seamlessly with the environment, featuring traditional wooden structures and a peaceful atmosphere that invites contemplation. The shrine is dedicated to the protection of the natural landscape, aligning with the reverence for nature often found in Shinto beliefs. Visitors are drawn not only to its spiritual ambiance but also to the scenic beauty of the Sayama Hills, making it a hidden gem for those seeking cultural and natural immersion. (AI Generated) </p>
+          
+          <p class="wishdes">The Totoro Wish Station is a whimsical and enchanting spot nestled at the edge of a serene forest, designed to evoke the magical charm of the beloved Studio Ghibli character. The station features a cozy wooden pavilion with a thatched roof, surrounded by vibrant greenery and adorned with hand-carved Totoro figures peeking playfully from the foliage. A large, friendly Totoro statue stands at the center, holding a mailbox where visitors can leave handwritten wishes on small wooden plaques, known as *ema*. Lanterns shaped like soot sprites gently illuminate the area, creating a magical glow during twilight. The air is filled with a sense of wonder, as wind chimes tinkle softly in the breeze, completing the atmosphere of childlike awe and hope. The Totoro Wish Station invites dreamers of all ages to pause, connect with nature, and leave their dreams in the care of this gentle forest spirit.</p>
+      </section>
 
 
 
@@ -48,7 +80,23 @@
       $('button#NavMenu').click(function(){
           $('.nav').slideToggle(250);
       });
-
+      
+      $('.treedes').hide();
+      $('.shrinedes').hide();
+      $('.wishdes').hide();
+      
+      $('button#treebutton').click(function(){
+          $('.treedes').slideToggle(200);
+      }); //treebutton
+      
+      $('button#shrinebutton').click(function(){
+          $('.shrinedes').slideToggle(200);
+      }); //shrinebutton
+      
+      $('button#wishbutton').click(function(){
+          $('.wishdes').slideToggle(200);
+      }); //wishbutton
+      
   }); //close .ready()
 </script>
     

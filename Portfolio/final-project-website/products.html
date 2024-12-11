@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>***</title>
+	<title>MLC Products</title>
 	
 	<link rel="stylesheet" href="css/style.css">	
 	
@@ -17,7 +17,15 @@
 
 <body>
     
+    <div class="flex">
+    
+ <img src="img/mlc%20logo.png" alt="MLC Logo" class="logo">
+    
     <button id="NavMenu"><img src="img/hamburger.png" class="ham"></button>
+    
+   
+        
+        </div>
     
         <section class="nav">
           <nav class="horizontal">
@@ -32,12 +40,24 @@
  </section>
     
   <div id="products">
-      <section class="charm">
+      <figure class="charm">
           <img src="img/product-01.png" alt="purple cloth charm" class="cha">
-          <h2>Omamori Charm</h2>
+          <figcaption class="cham">Omamori Charm</figcaption>
+      </figure>
           <p class="charmdes"> Omamori good luck charm is used to protect individuals from evil and to bring about good fortune.</p>
       
-      </section>
+      <figure class="plant">
+          <img src="img/product-05.png" alt="plant sprout" class="pla">
+          <figcaption class="plan">
+          Wish Plant Sapling
+          </figcaption>
+          <p class="plantdes">
+              This is a wish tree starter that will help increase the chances of Totoro visiting you. Plant this in your backyard and raise it properly so Totoro can reward you for your efforts.
+          </p>
+          
+      </figure>
+      
+      </div>
 
 
 
@@ -55,6 +75,16 @@
       $('.nav').hide();
       $('button#NavMenu').click(function(){
           $('.nav').slideToggle(250);
+      }); //nav bar toggle
+      
+      $('.charmdes').hide();
+      $('.cha').click( function(){
+          $('.charmdes').fadeToggle(200);
+      }); //charm toggle
+      
+      $('.plantdes').hide();
+      $('.pla').click(function(){
+          $('.plantdes').fadeToggle(200);
       });
 
   }); //close .ready()
